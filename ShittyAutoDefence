@@ -726,7 +726,7 @@ Section2:NewToggle("Fruit (Q skill)", "Uses sword Q skill", function(hell)
     while wait() and canLoop2 do
     if hell then
 local args = {
-    [1] = "Fruit Style",
+    [1] = "Devil Fruit",
     [2] = "Q",
     [3] = CFrame.new(-603.57080078125, -2.7093610763549805, -4341.92919921875) * CFrame.Angles(-1.1909685134887695, 0.07796096801757812, 0.1926688700914383),
     [4] = workspace.Map.Islands.Marineford.Model.Marineford:FindFirstChild("Marineford platform"):FindFirstChild("Marineford platform").MeshPart,
